@@ -1,4 +1,4 @@
-Universal Video Downloader
+Universal Video Downloader:
 The Universal Video Downloader is a lightweight, full-stack local application designed to retrieve video and audio streams from numerous online sources (e.g., YouTube, Instagram, X, TikTok) with granular control over format and quality.
 
 It operates on a two-step API principle: first, it fetches all available formats (resolutions and file sizes); second, it executes the download based on the user's specific selection, ensuring standardized output formats (like MP3 for audio).
@@ -14,7 +14,7 @@ Robust File Handling: Uses server-side logic to correctly decode long filenames 
 
 Liquid Glass UI: Features a modern, responsive user interface inspired by Apple's "Liquid Glass" theme, built with pure HTML/JS and Tailwind CSS.
 
-🛠️ Setup and Installation
+Setup and Installation
 This project requires a Python environment to run the server and external media handling utilities.
 
 Prerequisites
@@ -28,7 +28,7 @@ Step 1: Clone and Install Dependencies
 Clone the repository and install the required Python libraries (Flask for the server, flask-cors for communication, and requests).
 
 # Clone the repository
-git clone [YOUR_REPOSITORY_LINK_HERE]
+git clone
 cd dynamic-downloader
 
 # Install Python dependencies
